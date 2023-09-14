@@ -10,7 +10,7 @@
 									<tbody>
 										<tr>
 											<td style="width: 100%; border-color: #000000;">
-												<div style="text-align: center;"><img src="https://raw.githubusercontent.com/JulioZanette/zabbix-html-email-template/main/logoSample/LogoSample.png" alt="" style="width: 256px; height: 67px;"/></div>
+												<div style="text-align: center;"><img src="logoSample/logo_omnisaude.png" alt="" style="width: 256px; height: 67px;"/></div>
 											</td>
 										</tr>
 									</tbody>
@@ -26,7 +26,7 @@
 																<p style="text-align: center;">
 																	<span style="color: #ffffff; font-size: 10pt; font-family: Arial;">
 																		<strong>
-																			<span style="font-size: 18pt;">Problem Started</span>
+																			<span style="font-size: 18pt;">Inicio do Problema</span>
 																		</strong>
 																	</span>
 																</p>
@@ -45,7 +45,7 @@
 															<td style="width: 477px; text-align: left; background-color: #ffad33; height: 24px; border-color: #000000;" colspan="2">
 																<div style="text-align: center;">
 																	<span style="font-size: 14pt; font-family: Arial;">
-																		<strong>TRIGGER INFORMATION</strong>
+																		<strong>TRIGGER INFORMACÕES</strong>
 																	</span>
 																</div>
 															</td>
@@ -67,7 +67,7 @@
 																<p style="text-align: left;">
 																	<span style="font-family: Arial;">
 																		<strong>
-																			<span style="font-size: 10pt;">Problem started:</span>
+																			<span style="font-size: 10pt;">Inicio do Problema:</span>
 																		</strong>
 																	</span>
 																</p>
@@ -76,7 +76,7 @@
 																		<strong>
 																			<span style="font-size: 10pt;">
 																				<strong>
-																					<strong style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; text-decoration-color: initial;">Problem duration:</strong>
+																					<strong style="color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; text-decoration-color: initial;">Duração do problema:</strong>
 																					<br />
 																				</strong>
 																			</span>
@@ -87,7 +87,7 @@
 																	<span style="font-family: Arial;">
 																		<strong>
 																			<span style="font-size: 10pt;">
-																				<strong>Severity:</strong>
+																				<strong>Severidade:</strong>
 																			</span>
 																		</strong>
 																	</span>
@@ -96,7 +96,7 @@
 																	<span style="font-family: Arial;">
 																		<strong>
 																			<span style="font-size: 10pt;">
-																				<strong>Item Key:&nbsp;</strong>
+																				<strong>Item Chave:&nbsp;</strong>
 																			</span>
 																		</strong>
 																	</span>
@@ -106,7 +106,7 @@
 																		<strong>
 																			<span style="font-size: 10pt;">
 																				<strong>
-																					<strong>Last Value:</strong>
+																					<strong>Ultimo Valor:</strong>
 																				</strong>
 																			</span>
 																		</strong>
@@ -119,7 +119,7 @@
 																				<strong>
 																					<strong>
 																						<strong>
-																							<strong>Description:</strong>
+																							<strong>Descrição:</strong>
 																						</strong>
 
 																					</strong>
@@ -170,7 +170,7 @@
 															<td style="width: 477px; background-color: #ffad33; text-align: center; height: 18px; border-color: #000000;" colspan="2">
 																<span style="font-size: 14pt; font-family: Arial;">
 																	<strong>HOST&nbsp;
-																		<strong>INFORMATION</strong>
+																		<strong>INFORMACÕES</strong>
 																	</strong>
 																</span>
 															</td>
@@ -203,7 +203,7 @@
 																<p style="text-align: left;">
 																	<span style="font-family: Arial;">
 																		<strong>
-																			<span style="font-size: 13.3333px;">Memory:</span>
+																			<span style="font-size: 13.3333px;">Memória:</span>
 																		</strong>
 																	</span>
 																</p>
@@ -213,14 +213,14 @@
 																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.NAME1} ({HOST.IP1}) </span>
 																</p>
 																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {{HOST.HOST}:system.uptime.last()} </span>
+																	<span style="font-size: 10pt; font-family: Arial;"> {{HOST.HOST}:system.uptime} </span>
 																</p>
 																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {{HOST.HOST}:system.cpu.util.last()} </span>
+																	<span style="font-size: 10pt; font-family: Arial;"> {system.cpu.util[,idle]} </span>
 																</p>
 																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {{HOST.HOST}:vm.memory.utilization.last()} </span>
-																</p>
+																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.HOST}:vm.memory.size[pavailable] </span>
+																</p>													
 															</td>
 														</tr>
 													</tbody>
@@ -245,7 +245,7 @@
 															</td>
 															<td style="width: 87.3889%; border-color: #000000;">
 																<span style="font-family: Arial; font-size: 18pt;">
-																	<strong>Zabbix Monitoring</strong>
+																	<strong>Monitoramento - Zabbix</strong>
 																</span>
 															</td>
 														</tr>
@@ -259,7 +259,7 @@
 									<tbody>
 										<tr>
 											<td style="width: 100%; text-align: center; border-color: #000000;">
-												<span style="color: #ffffff; font-size: 10pt; font-family: Arial;"> Copyright© 2021 - Your Company Name </span>
+												<span style="color: #ffffff; font-size: 10pt; font-family: Arial;"> Copyright© 2021 - Omnisaude  </span>
 											</td>
 										</tr>
 									</tbody>
