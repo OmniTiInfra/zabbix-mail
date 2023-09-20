@@ -11,7 +11,7 @@
 										<tr>
 											<td style="width: 100%; border-color: #000000;">
 												<div style="text-align: center;">
-													<img src="/usr/share/zabbix/logoSample/logo_omnisaude.png" alt="" style="width: 256px; height: 67px;"/>
+													<img src="https://raw.githubusercontent.com/OmniTiInfra/zabbix-mail/main/logoSample/logo_omnisaude.png" alt="" style="width: 256px; height: 67px;"/>
 												</div>
 											</td>
 										</tr>
@@ -54,6 +54,18 @@
 														</tr>
 														<tr style="height: 256px; text-align: left;">
 															<td style="width: 165px; text-align: left; border-color: #000000;">
+																<p style="text-align: left;">
+																	<span style="font-family: Arial;">
+																		<strong>
+																			<span style="font-size: 10pt;">
+																				<strong>
+																					<strong>Servidor:</strong>
+																				</strong>
+																				<br />
+																			</span>
+																		</strong>
+																	</span>
+																</p>
 																<p style="text-align: left;">
 																	<span style="font-family: Arial;">
 																		<strong>
@@ -132,6 +144,11 @@
 															</td>
 															<td style="width: 358px; text-align: left; border-color: #000000;">
 																<p style="text-align: left;">
+																	<span style="font-size: 10pt; font-family: Arial;">{HOST.NAME1} ({HOST.IP1})
+																		<br />
+																	</span>
+																</p>
+																<p style="text-align: left;">
 																	<span style="font-size: 10pt; font-family: Arial;">{TRIGGER.STATUS}
 																		<br />
 																	</span>
@@ -166,63 +183,7 @@
 																</p>
 															</td>
 														</tr>
-														<tr style="height: 25px; width: 526px; border-color: #000000; background-color: #99cc00; text-align: center;" class="dxhe-resizable-table-cell">
-															<td style="width: 526px; background-color: #99cc00; text-align: center; height: 18px; border-color: #000000;" colspan="2">
-																<span style="font-size: 14pt; font-family: Arial;">
-																	<strong>HOST&nbsp;
-																		<strong>INFORMACÕES</strong>
-																	</strong>
-																</span>
-															</td>
-														</tr>
-														<tr style="height: 128px; text-align: left;">
-															<td style="width: 165px; text-align: left; border-color: #000000; height: 142px;">
-																<p style="text-align: left;">
-																	<span style="font-family: Arial;">
-																		<strong>
-																			<span style="font-size: 13.3333px;">Name:</span>
-																		</strong>
-																	</span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-family: Arial;">
-																		<strong>
-																			<span style="font-size: 13.3333px;">
-																				<strong>Uptime:</strong>
-																			</span>
-																		</strong>
-																	</span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-family: Arial;">
-																		<strong>
-																			<span style="font-size: 13.3333px;">CPU:</span>
-																		</strong>
-																	</span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-family: Arial;">
-																		<strong>
-																			<span style="font-size: 13.3333px;">Memória:</span>
-																		</strong>
-																	</span>
-																</p>
-															</td>
-															<td style="width: 358px; text-align: left; border-color: #000000; height: 142px;">
-																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.NAME1} ({HOST.IP1}) </span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.HOST}: ({system.uptime}) </span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.HOST}:({system.cpu.util[,idle]}) </span>
-																</p>
-																<p style="text-align: left;">
-																	<span style="font-size: 10pt; font-family: Arial;"> {HOST.HOST}:({vm.memory.size[pavailable]}) </span>
-																</p>
-															</td>
-														</tr>
+														
 													</tbody>
 												</table>
 											</td>
